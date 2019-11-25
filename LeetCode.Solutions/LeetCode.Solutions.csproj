@@ -7,5 +7,7 @@
   <ItemGroup>
     <Folder Include="Graph\" />
     <Folder Include="Graph\332.ReconstructItinerary\" />
+    <Folder Include="Graph\133.CloneGraph\" />
+    <Folder Include="Graph\207.CourseSchedule\" />
   </ItemGroup>
 </Project>

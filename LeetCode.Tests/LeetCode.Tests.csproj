@@ -18,6 +18,8 @@
     <Folder Include="Graph\" />
     <Folder Include="Graph\785.IsGraphBipartite\" />
     <Folder Include="Graph\332.ReconstructItinerary\" />
+    <Folder Include="Graph\133.CloneGraph\" />
+    <Folder Include="Graph\207.CourseSchedule\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeetCode.Solutions\LeetCode.Solutions.csproj" />
