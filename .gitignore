@@ -1,0 +1,8 @@
+**/bin
+**/obj
+
+#mac
+.DS_Store
+
+#vs mac
+.vs/
