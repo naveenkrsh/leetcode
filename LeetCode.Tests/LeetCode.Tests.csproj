@@ -22,6 +22,8 @@
     <Folder Include="Graph\207.CourseSchedule\" />
     <Folder Include="Graph\210.CourseSchedule.II\" />
     <Folder Include="Graph\841.KeysAndRooms\" />
+    <Folder Include="Stack\" />
+    <Folder Include="Stack\739.DailyTemperatures\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeetCode.Solutions\LeetCode.Solutions.csproj" />
