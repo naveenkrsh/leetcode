@@ -24,6 +24,9 @@
     <Folder Include="Graph\841.KeysAndRooms\" />
     <Folder Include="Stack\" />
     <Folder Include="Stack\739.DailyTemperatures\" />
+    <Folder Include="Tree\" />
+    <Folder Include="Tree\617.MergeTwoBinaryTrees\" />
+    <Folder Include="Tree\129.SumRootToLeafNumbers\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeetCode.Solutions\LeetCode.Solutions.csproj" />
