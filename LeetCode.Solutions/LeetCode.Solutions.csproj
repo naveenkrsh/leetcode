@@ -16,5 +16,7 @@
     <Folder Include="Tree\" />
     <Folder Include="Tree\617.MergeTwoBinaryTrees\" />
     <Folder Include="Tree\129.SumRootToLeafNumbers\" />
+    <Folder Include="LinkedList\" />
+    <Folder Include="LinkedList\206.ReverseLinkedList \" />
   </ItemGroup>
 </Project>
