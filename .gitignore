@@ -9,3 +9,6 @@
 
 #idea
 .idea
+
+#java
+**/out
