@@ -10,20 +10,21 @@ class Solution {
     private TreeNode flattenUtil(TreeNode root) {
         if (root == null)
             return null;
-        TreeNode l = flattenUtil(root.left);
-        TreeNode r = flattenUtil(root.right);
-        if (l != null) {
-            root.right = l;
-            TreeNode temp = l;
-            //TODO : remove this loop.
-            while (temp.right != null) {
-                temp = temp.right;
-            }
-            temp.right = r;
-        } else {
-            root.right = r;
+        TreeNode lastL = flattenUtil(root.left);
+        TreeNode lastR = flattenUtil(root.right);
+
+        if (lastL == null && lastR == null)
+            return root;
+
+        if (lastL != null) {
+            lastL.right = root.right;
+            root.right = root.left;
+            root.left = null;
         }
-        root.left = null;
+        if (lastR != null)
+            return lastR;
+        if (lastL != null)
+            return lastL;
         return root;
     }
 }
