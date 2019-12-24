@@ -18,10 +18,7 @@ public class SolutionTest {
 
     @Test
     public void robTest1() {
-
-        Integer[] arr = new Integer[]{3, 2, 3, null, 3, null, 1};
-        TreeNode root = Helper.buildTree(arr);
-
+        TreeNode root = Helper.stringToTreeNode("[3, 2, 3, null, 3, null, 1]");
         /*
       3
     / \
@@ -36,10 +33,7 @@ public class SolutionTest {
 
     @Test
     public void robTest2() {
-
-        Integer[] arr = new Integer[]{3, 4, 5, 1, 3, null, 1};
-        TreeNode root = Helper.buildTree(arr);
-
+        TreeNode root = Helper.stringToTreeNode("[3, 4, 5, 1, 3, null, 1]");
         int actual = sol.rob(root);
         assertEquals(9, actual);
 
